@@ -42,7 +42,7 @@ export default function getStarfield({ numStars = 10000000, numStars2 = 500, num
   const stars1 = createStars(numStars, "./textures/stars/circle.png", 5);
   const stars2 = createStars(numStars2, "./textures/stars/newstar.jpg", 50); // Increased size for new stars
   const stars3 = createStars(numStars3, "./textures/stars/newstar.jpg", 250); // New stars with size 100
-
+  
   const starfield = new THREE.Group();
   starfield.add(stars1);
   starfield.add(stars2);
